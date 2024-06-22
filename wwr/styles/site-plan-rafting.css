@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Playwrite+PL');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
