@@ -63,6 +63,7 @@ footer {
 }
 
 aside {
+    position: relative;
     width: 20em;
     text-align: center;
 }
@@ -72,3 +73,8 @@ main img {
     float: right;
 }
 
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 150px;
+}
