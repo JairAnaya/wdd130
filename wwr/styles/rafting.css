@@ -16,16 +16,20 @@
 section img {
     width: 250px;
     height: auto;
+    clear: both;
+    float: right;
 }
 
-h1, h2 {
+h1 {
     position: absolute;
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    text-align: justify;
-}
-header {
+    color: var(--nav-link-color);
+    padding: 5px;
+    margin: 1rem;
+    border: #307473;
+    background-color: var(--accent1-color);
     clear: both;
+    text-align: center;
 }
 
 main img {
@@ -33,7 +37,9 @@ main img {
 }
 
 article {
+    align-items: center;
     position: absolute;
+    clear: both;
 }
 
 header {
@@ -43,12 +49,27 @@ header {
 
 p {
     text-align: justify;
-    position: absolute;
-    padding: 25px;
+    padding: 1rem;
+    border: 1px;
+    color: #000000;
 }
 
 a {
     text-decoration: none;
+}
+
+article p {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h2 {
+    position: relative;
+    color: var(--nav-link-color);
+    float: center;
+    text-align: left;
+    padding: 1rem;
+    margin: 5px;
 }
 
 footer {
@@ -59,10 +80,24 @@ footer img {
     width: 25px;
 }
 
+article img {
+    width: 3px;
+    float: right;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.hero article img {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
 .hero img {
-    opacity: 50%;
     position: relative;
     display: block;
     width: 100%;
     height: auto;
+    clear: both;
+    
 }
