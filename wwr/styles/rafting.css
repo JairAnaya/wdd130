@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+:root {
+    background: #c2e7da;
+    --primary-color: #307473;
+    --secondary-color: #7A82AB;
+    --accent1-color: #2DC2BD;
+    --accent2-color: #12664F;
+    --heading-font: 'Playwrite Polska', serif;
+    --paragraph-font: 'Playwrite Polska', serif;
+    --nav-background-color: #C6D4FF;
+    --nav-link-color: #12664F;
+    --nav-hover-link-color: #307473;
+    --nav-hover-background-color: #2DC2BD;
+}
+
+section img {
+    width: 250px;
+    height: auto;
+}
+
+h1, h2 {
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: justify;
+}
+header {
+    clear: both;
+}
+
+main img {
+    float: right;
+}
+
+article {
+    position: absolute;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    text-align: justify;
+    position: absolute;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+}
+
+footer img {
+    width: 25px;
+}
+
+.hero img {
+    opacity: 50%;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
