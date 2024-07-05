@@ -62,7 +62,7 @@ main img {
     float: right;
 }
 header, .grid, footer {
-    max-width: 840;
+    max-width: 840px;
     margin: 0 auto;
     border-top: 1px solid #000;
     text-align: left;
