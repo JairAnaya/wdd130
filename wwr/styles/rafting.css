@@ -52,7 +52,7 @@ figure {
 }
   
 .adventure img {
-    max-width: auto;
+    max-width: 220px;
     max-height: 150px;
 }
   
@@ -98,7 +98,6 @@ article p {
 h2 {
     position: relative;
     color: var(--nav-link-color);
-    float: center;
     text-align: center;
     padding: 1rem;
     margin: 5px;
