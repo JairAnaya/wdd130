@@ -49,19 +49,19 @@ figure {
     padding: 1px;
     max-width: 220px;
     margin: auto;
-  }
+}
   
-  .adventure img {
+.adventure img {
     max-width: auto;
     max-height: 150px;
-  }
+}
   
-  figcaption {
+figcaption {
     color: #000;
-    font: italic sans-serif;
+    font: italic smaller sans-serif;
     padding: 1px;
     text-align: center;
-  }
+}
 
 article {
     align-items: center;
