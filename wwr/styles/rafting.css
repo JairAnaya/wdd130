@@ -13,19 +13,14 @@
     --nav-hover-background-color: #2DC2BD;
 }
 
-section img {
-    width: 250px;
-    height: auto;
-    clear: both;
-    float: right;
-}
 
 h1 {
+    width: 100%;
+    opacity: 0.5;
     position: absolute;
     font-family: var(--heading-font);
     color: var(--nav-link-color);
     padding: 5px;
-    margin: 1rem;
     border: #307473;
     background-color: var(--accent1-color);
     clear: both;
@@ -36,6 +31,38 @@ main img {
     float: right;
 }
 
+nav {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: space-evenly;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+figure {
+    align-items: center;
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 1px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  .adventure img {
+    max-width: auto;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    color: #000;
+    font: italic sans-serif;
+    padding: 1px;
+    text-align: center;
+  }
+
 article {
     align-items: center;
     position: absolute;
@@ -45,12 +72,17 @@ article {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 300px 1fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
 }
 
 p {
     text-align: justify;
     padding: 1rem;
-    border: 1px;
     color: #000000;
 }
 
@@ -60,14 +92,14 @@ a {
 
 article p {
     margin: 1rem;
-    padding: 1rem;
+    padding: 4rem;
 }
 
 h2 {
     position: relative;
     color: var(--nav-link-color);
     float: center;
-    text-align: left;
+    text-align: center;
     padding: 1rem;
     margin: 5px;
 }
@@ -77,13 +109,13 @@ footer {
 }
 
 footer img {
-    width: 25px;
+    width: 30px;
 }
 
 article img {
     width: 3px;
     float: right;
-    margin: 1rem;
+    margin: 4rem;
     padding: 1rem;
 }
 
@@ -99,5 +131,8 @@ article img {
     width: 100%;
     height: auto;
     clear: both;
-    
 }
+ .sociallinks a{
+    float: right;
+    position: relative;
+ }
