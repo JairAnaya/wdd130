@@ -88,6 +88,7 @@ p {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 article p {
@@ -100,7 +101,7 @@ h2 {
     color: var(--nav-link-color);
     text-align: center;
     padding: 1rem;
-    margin: 5px;
+    margin: 50px;
 }
 
 footer {
@@ -191,7 +192,7 @@ button:hover {
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: auto;
+    vertical-align: bottom;
 }
 
 .rows1 {
